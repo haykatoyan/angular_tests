@@ -13,5 +13,10 @@ export class EmployeeComponent {
 	lastName : string = 'Atoyan';
 	gender : string = 'male';
 	age : number = 20;
+	showDetails : boolean = false;
+
+	toggleDetails() : void {
+		this.showDetails = !this.showDetails;
+	}
 }
 //This is for git commit
